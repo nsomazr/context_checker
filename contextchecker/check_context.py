@@ -10,7 +10,7 @@ def main(sentence,word_one, word_two):
     #get all the weights from the
     words, weights = context_weights(sentence)
 
-    # plot the weights matrix
+    # plot the weights matrix, the figure will be saved in images folder
     plot_attention_weight_matrix(weights, words, words)
 
     # extract weights from the weights matrix pairwise

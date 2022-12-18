@@ -36,4 +36,4 @@ def check_context_weight(sentence, word_one, word_two):
 
     else:
 
-        raise ValueError("Word(s) not found in a sentence") 
+        raise ValueError("One of the word is not found in a sentence \'{}\'. Please make sure all words are in the input sentence.".format(sentence)) 

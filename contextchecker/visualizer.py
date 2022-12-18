@@ -10,5 +10,5 @@ def plot_attention_weight_matrix(weight_matrix, x_ticks, y_ticks):
     plt.yticks(np.arange(weight_matrix.shape[0]) + 0.5, y_ticks)
     plt.title("Attention matrix")
     plt.xlabel("Attention score")
-    plt.show()
+    plt.savefig("./images/weight_matrix.png")
 
